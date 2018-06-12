@@ -8,7 +8,7 @@ inputChange(event)
 }
 clicked(event)
 {
-    console.log('button clicked');
+    console.log('button    clicked');
 }
 render() {
     return(
@@ -19,6 +19,7 @@ render() {
                 <p> Username: </p><input onChange={this.inputChange}/> <p> Password: </p>  <input type = 'password' onChange={this.inputChange}/>
                 <br/> <br/>
          <button type='button' onClick={this.clicked}> Login </button>
+
          </div>
          </logotab>
     )
